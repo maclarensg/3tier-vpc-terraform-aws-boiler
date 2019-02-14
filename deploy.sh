@@ -2,10 +2,8 @@
 
 set -o errexit -o nounset
 
-#terraform init
-#
-#terraform plan
-#
-#terraform apply
+terraform init
 
-echo "as1234"
+terraform plan
+
+terraform apply

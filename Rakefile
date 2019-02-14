@@ -1,7 +1,7 @@
 
-desc "Example of task with invoke"
-task :first_task do
-  puts "First task"
+desc "Dummy Task to pass travis build"
+task :dummy_task do
+  puts "Empty task"
 end
 
-task :default => ["first_task"]
+task :default => ["dummy_task"]
