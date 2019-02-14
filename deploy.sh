@@ -1,6 +1,6 @@
-#!/bin/bash
+#!/bin/bash -x shl
 
-set -o errexit -o nounset
+#set -o errexit -o nounset
 
 terraform init
 
